@@ -23,7 +23,7 @@ namespace _20140731IRC_PRE
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            var x = await this.ShowInputAsync("커밋!!!", "안녕?");
+            var x = await this.ShowInputAsync("커밋!!!!!!!!!!!!!!!!!", "안녕?");
             // 4.0이라 ASYNC가 없네 잠만영
             MessageBox.Show(x);
             //this.("안녕", "안녕", MessageDialogStyle.AffirmativeAndNegative, mDialog);
